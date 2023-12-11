@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
         adapter = AdapterRecycler(data)
     }
+<<<<<<< HEAD
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
@@ -63,4 +64,6 @@ class MainActivity : AppCompatActivity() {
         }
         return true
     }
+=======
+>>>>>>> 7c8cc451f4968ee5d3f58df74fbc6c4131e4e4ee
 }
